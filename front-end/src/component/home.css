@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    border: 0;
+    background-color: rgb(37, 30, 30);
+}
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1rem;
+}
+a{
+    color: rgb(255, 251, 251);
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-decoration: none;
+    &:hover{
+        color: #918585;
+    }
+}
+button:hover{
+    color: #b9b2b2;
+}
+.navebar{
+    position:sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    color: #ffffff;
+}
+.a1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.a3{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #D92121;
+}
+.a4 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D92121; /* Blue color, adjust as needed */
+    color: #fff; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+.a4:hover {
+    background-color: #dd4325; /* Darker blue color on hover */
+}
+.hero{
+    margin-top: 5rem;
+    font-size: 8rem;
+    font-weight: 100;
+}
+.hero-text{
+    color: rgb(255, 255, 255);
+}
+.hero-text2{
+    color: #EF5050;
+}
+.search{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 15px 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.search input{
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.search-btn{
+    padding: 10px 20px;
+    background-color: #D92121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+i{
+    background-color: #f0ebeb;
+    color: #050505;
+}
+p{
+    color: #ffffff;
+    margin-top: 2rem;
+}
+.job-cards{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+.title{
+    display:flex;
+    color: #ffffff;
+    font-weight: 100;
+    flex-direction: column;
+}
+.btn{
+    border: none;
+}
+.Explorebyjobcategory{
+    margin-top: 5rem;
+    display: flex;
+    color:#fff;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+.Explorebyjobcategory2{
+    margin-left: 1rem;
+    color:#EF5050;
+    font-weight: 100;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    background-color: #ffffff; /* Card background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(253, 253, 253, 0.1); /* Card box shadow */
+    text-align: center;
+    width: 250px; /* Adjust the width as needed */
+    margin: 0 10px; /* Add margin between cards */
+}
+.card-body{
+    background-color: #ffffff;
+}
+
+
