@@ -7,7 +7,7 @@ const Home = () => {
         <div className="container">
             <div className="navbar">
                 <div className="right">
-                    <img src="./image/LOGO.png" alt="LOGO" className='logo' />
+                    <img src="../image/LOGO.png" alt="LOGO" className='logo' />
                     <a href="#" className='a1'>Find Jobs</a>
                     <a href="#" className='a2'>Browse Courses</a>
                 </div>
@@ -38,31 +38,32 @@ const Home = () => {
                     <div className="card">
                         <div className="card-body">
                             <i className="bi bi-briefcase-fill"></i>
-                            <h5 className="card-title bg-light text-danger" >Design</h5>
-                            <p className='bg-light text-danger'>235 jobs available</p>
+                            <h5 className="card-title bg-light" >Design</h5>
+                            <p className='bg-light '>235 jobs available</p>
                             <i className="bi bi-arrow-right-short "></i>
                         </div>
                     </div>
                     <div className="card">
                         <div className="card-body">
                             <i className="bi bi-briefcase-fill"></i>
-                            <h5 className="card-title bg-light text-danger" >Design</h5>
-                            <p className='bg-light text-danger'>235 jobs available</p>
-                            <i className="bi bi-arrow-right-short "></i>
-                        </div>
-                    </div><div className="card">
-                        <div className="card-body">
-                            <i className="bi bi-briefcase-fill"></i>
-                            <h5 className="card-title bg-light text-danger" >Design</h5>
-                            <p className='bg-light text-danger'>235 jobs available</p>
+                            <h5 className="card-title bg-light" >Design</h5>
+                            <p className='bg-light '>235 jobs available</p>
                             <i className="bi bi-arrow-right-short "></i>
                         </div>
                     </div>
                     <div className="card">
                         <div className="card-body">
                             <i className="bi bi-briefcase-fill"></i>
-                            <h5 className="card-title bg-light text-danger" >Design</h5>
-                            <p className='bg-light text-danger'>235 jobs available</p>
+                            <h5 className="card-title bg-light" >Design</h5>
+                            <p className='bg-light '>235 jobs available</p>
+                            <i className="bi bi-arrow-right-short "></i>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            <i className="bi bi-briefcase-fill"></i>
+                            <h5 className="card-title bg-light" >Design</h5>
+                            <p className='bg-light '>235 jobs available</p>
                             <i className="bi bi-arrow-right-short "></i>
                         </div>
                     </div>
@@ -71,36 +72,133 @@ const Home = () => {
                     <div className="card">
                         <div className="card-body">
                             <i className="bi bi-briefcase-fill"></i>
-                            <h5 className="card-title bg-light text-danger" >Design</h5>
-                            <p className='bg-light text-danger'>235 jobs available</p>
+                            <h5 className="card-title bg-light" >Design</h5>
+                            <p className='bg-light '>235 jobs available</p>
                             <i className="bi bi-arrow-right-short "></i>
                         </div>
                     </div>
                     <div className="card">
                         <div className="card-body">
                             <i className="bi bi-briefcase-fill"></i>
-                            <h5 className="card-title bg-light text-danger" >Design</h5>
-                            <p className='bg-light text-danger'>235 jobs available</p>
-                            <i className="bi bi-arrow-right-short "></i>
-                        </div>
-                    </div><div className="card">
-                        <div className="card-body">
-                            <i className="bi bi-briefcase-fill"></i>
-                            <h5 className="card-title bg-light text-danger" >Design</h5>
-                            <p className='bg-light text-danger'>235 jobs available</p>
+                            <h5 className="card-title bg-light" >Design</h5>
+                            <p className='bg-light '>235 jobs available</p>
                             <i className="bi bi-arrow-right-short "></i>
                         </div>
                     </div>
                     <div className="card">
                         <div className="card-body">
                             <i className="bi bi-briefcase-fill"></i>
-                            <h5 className="card-title bg-light text-danger" >Design</h5>
-                            <p className='bg-light text-danger'>235 jobs available</p>
+                            <h5 className="card-title bg-light" >Design</h5>
+                            <p className='bg-light '>235 jobs available</p>
+                            <i className="bi bi-arrow-right-short "></i>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            <i className="bi bi-briefcase-fill"></i>
+                            <h5 className="card-title bg-light" >Design</h5>
+                            <p className='bg-light '>235 jobs available</p>
                             <i className="bi bi-arrow-right-short "></i>
                         </div>
                     </div>
                 </div>
             </section>
+            <section className="job-cards">
+                <div className="title">
+                    <h2 className='Explorebyjobcategory'>Featured <span className='Explorebyjobcategory2'>jobs </span></h2>
+                </div>
+                <div className="cards">
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Featured job content */}
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Featured job content */}
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Featured job content */}
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Featured job content */}
+                        </div>
+                    </div>
+                </div>
+                <div className="cards">
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Featured job content */}
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Featured job content */}
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Featured job content */}
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Featured job content */}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="job-cards">
+                <div className="title">
+                    <h2 className='Explorebyjobcategory'>Featured <span className='Explorebyjobcategory2'>Courses </span></h2>
+                </div>
+                <div className="Courses-cards">
+                    <div className="card">
+                        <div className="card-body">
+                            <i className="bi bi-briefcase-fill"></i>
+                            <h5 className="card-title bg-light" >Design</h5>
+                            <p className='bg-light '>235 jobs available</p>
+                            <i className="bi bi-arrow-right-short "></i>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Course content */}
+                        </div>
+                    </div>
+                </div>
+                <div className="Courses-cards">
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Course content */}
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Course content */}
+                        </div>
+                    </div>
+                </div>
+                <div className="Courses-cards">
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Course content */}
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-body">
+                            {/* Course content */}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer className='Site-footer'>
+
+            </footer>
         </div>
     );
 };
