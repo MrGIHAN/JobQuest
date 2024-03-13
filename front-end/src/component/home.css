@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    border: 0;
+    background-color: rgb(37, 30, 30);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+a {
+    color: rgb(255, 251, 251);
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+a:hover {
+    color: #918585;
+}
+
+button:hover {
+    color: #b9b2b2;
+}
+
+.navbar {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    color: #ffffff;
+}
+
+.a1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.a3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #d92121;
+}
+
+.a4 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d92121;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.a4:hover {
+    background-color: #dd4325;
+}
+
+.hero {
+    margin-top: 5rem;
+    font-size: 8rem;
+    font-weight: 100;
+}
+
+.hero-text {
+    color: rgb(255, 255, 255);
+}
+
+.hero-text2 {
+    color: #ef5050;
+}
+
+.search {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 15px 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.search input {
+    padding: 10px 20px;
+    border: none;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    background-color: #d92121;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+i {
+    background-color: #f0ebeb;
+    color: #050505;
+}
+
+p {
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+.job-cards {
+    margin-top: 3rem;
+}
+
+.title {
+    display: flex;
+    color: #ffffff;
+    font-weight: 100;
+    flex-direction: column;
+}
+
+.btn {
+    border: none;
+}
+
+.Explorebyjobcategory {
+    margin-top: 5rem;
+    display: flex;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.Explorebyjobcategory2 {
+    margin-left: 1rem;
+    color: #ef5050;
+    font-weight: 300;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+.card-body{
+    background-color: #fff;
+}
+.bg-light {
+    color: #000;
+}
+/* Course card section styles */
+.Courses-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.Courses-cards .card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.Courses-cards .card:hover {
+    transform: translateY(-10px);
+}
