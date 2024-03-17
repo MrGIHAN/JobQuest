@@ -9,7 +9,7 @@ const URI = 'mongodb+srv://admin:admin@cluster0.ogorx9a.mongodb.net/?retryWrites
 const PORT = process.env.PORT || 3000;
 
 
-app.use(cors);
+app.use(cors());
 app.use(express.json());
 
 app.use('/api/auth', authRouter);
