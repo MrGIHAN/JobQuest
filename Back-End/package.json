@@ -10,9 +10,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "cors": "^2.8.5",
     "express": "^4.18.3",
     "mongodb": "^6.5.0",
     "mongoose": "^8.2.2"
+=======
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.2",
+    "moongose": "^1.0.0"
+>>>>>>> bddb3f41c0cab4e7ca0256d86347c76538802b9e
   }
 }

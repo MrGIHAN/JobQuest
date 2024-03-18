@@ -1,13 +1,15 @@
 import React from 'react';
 import './home.css'; // Import your CSS file for styling
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../../image/LOGO'
+
 
 const Home = () => {
     return (
         <div className="container">
             <div className="navbar">
                 <div className="right">
-                    <img src="../image/LOGO.png" alt="LOGO" className='logo' />
+                    <img src="../../image/LOGO.png" alt="LOGO" className='logo' />
                     <a href="#" className='a1'>Find Jobs</a>
                     <a href="#" className='a2'>Browse Courses</a>
                 </div>
