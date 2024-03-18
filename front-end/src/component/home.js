@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css'; // Import your CSS file for styling
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../image/LOGO'
+
 
 
 const Home = () => {
