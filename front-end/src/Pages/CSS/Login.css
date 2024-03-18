@@ -1,0 +1,141 @@
+/* App.css */
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .left-pane, .right-pane {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 3rem;
+    color: #e53935; /* JobQuest logo color */
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .stats-icon {
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .testimonial {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 580px;
+    height: 800px;
+    margin-left: 150px;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+  }
+  
+  .testimonial-title {
+    font-style: italic;
+  }
+  
+  .testimonial-quote {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+  }
+  
+  .tab {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid #e53935;
+  }
+  
+  .welcome-back h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .google-login {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+  
+  .divider {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-button {
+    background-color: #e53935;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .login-prompt {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .remember-me {
+    display: flex;
+    align-items: end;
+    margin-top: 30px;
+    column-gap: 5px;
+    margin-bottom: 10px;
+    margin-right: 790px;
+    color: #5c5c5c;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  a {
+    color: #e53935;
+    text-decoration: none;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .App {
+      flex-direction: column;
+    }
+  }
+  

@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css'; // Import your CSS file for styling
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,8 +15,8 @@ const Home = () => {
                     <a href="#" className='a2'>Browse Courses</a>
                 </div>
                 <div className="left">
-                    <a href="#" className='a3'>Login</a>
-                    <a href="#" className='a4'>Sign Up</a>
+                    <Link to="/login" className='a4'>Login</Link>
+                    <Link to="/signup" className='a4'>Sign Up</Link>
                 </div>
             </div>
             <div className='hero'>
